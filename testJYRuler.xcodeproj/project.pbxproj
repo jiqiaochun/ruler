@@ -15,6 +15,14 @@
 		5D0C4C961D0E5C24002B0727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C4C941D0E5C24002B0727 /* LaunchScreen.storyboard */; };
 		5D0C4CA11D0E5C24002B0727 /* testJYRulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4CA01D0E5C24002B0727 /* testJYRulerTests.m */; };
 		5D0C4CAC1D0E5C24002B0727 /* testJYRulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4CAB1D0E5C24002B0727 /* testJYRulerUITests.m */; };
+		5D0C4CC01D0E5C7A002B0727 /* JYHRrettyRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4CBB1D0E5C7A002B0727 /* JYHRrettyRuler.m */; };
+		5D0C4CC11D0E5C7A002B0727 /* JYRecordingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4CBD1D0E5C7A002B0727 /* JYRecordingView.m */; };
+		5D0C4CC21D0E5C7A002B0727 /* JYRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4CBF1D0E5C7A002B0727 /* JYRulerScrollView.m */; };
+		5D0C4CC51D0E5E75002B0727 /* UIButton+JYCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4CC41D0E5E75002B0727 /* UIButton+JYCustom.m */; };
+		5D0C4CC81D0E5F5C002B0727 /* home_weight_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C4CC61D0E5F5C002B0727 /* home_weight_edit.png */; };
+		5D0C4CC91D0E5F5C002B0727 /* home_weight_edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C4CC71D0E5F5C002B0727 /* home_weight_edit@2x.png */; };
+		5D0C4CCC1D0E5FB9002B0727 /* UIColor+JYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4CCB1D0E5FB9002B0727 /* UIColor+JYColor.m */; };
+		5D0C4CCF1D0E60D4002B0727 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4CCE1D0E60D4002B0727 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		5D0C4CA71D0E5C24002B0727 /* testJYRulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testJYRulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0C4CAB1D0E5C24002B0727 /* testJYRulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testJYRulerUITests.m; sourceTree = "<group>"; };
 		5D0C4CAD1D0E5C24002B0727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0C4CBA1D0E5C7A002B0727 /* JYHRrettyRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYHRrettyRuler.h; sourceTree = "<group>"; };
+		5D0C4CBB1D0E5C7A002B0727 /* JYHRrettyRuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYHRrettyRuler.m; sourceTree = "<group>"; };
+		5D0C4CBC1D0E5C7A002B0727 /* JYRecordingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRecordingView.h; sourceTree = "<group>"; };
+		5D0C4CBD1D0E5C7A002B0727 /* JYRecordingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRecordingView.m; sourceTree = "<group>"; };
+		5D0C4CBE1D0E5C7A002B0727 /* JYRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRulerScrollView.h; sourceTree = "<group>"; };
+		5D0C4CBF1D0E5C7A002B0727 /* JYRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRulerScrollView.m; sourceTree = "<group>"; };
+		5D0C4CC31D0E5E75002B0727 /* UIButton+JYCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+JYCustom.h"; path = "../UIButton+JYCustom.h"; sourceTree = "<group>"; };
+		5D0C4CC41D0E5E75002B0727 /* UIButton+JYCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+JYCustom.m"; path = "../UIButton+JYCustom.m"; sourceTree = "<group>"; };
+		5D0C4CC61D0E5F5C002B0727 /* home_weight_edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_weight_edit.png; sourceTree = "<group>"; };
+		5D0C4CC71D0E5F5C002B0727 /* home_weight_edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_weight_edit@2x.png"; sourceTree = "<group>"; };
+		5D0C4CCA1D0E5FB9002B0727 /* UIColor+JYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JYColor.h"; sourceTree = "<group>"; };
+		5D0C4CCB1D0E5FB9002B0727 /* UIColor+JYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JYColor.m"; sourceTree = "<group>"; };
+		5D0C4CCD1D0E60D4002B0727 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		5D0C4CCE1D0E60D4002B0727 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +123,10 @@
 		5D0C4C851D0E5C24002B0727 /* testJYRuler */ = {
 			isa = PBXGroup;
 			children = (
+				5D0C4CB91D0E5C69002B0727 /* ruler */,
 				5D0C4C891D0E5C24002B0727 /* AppDelegate.h */,
+				5D0C4CC61D0E5F5C002B0727 /* home_weight_edit.png */,
+				5D0C4CC71D0E5F5C002B0727 /* home_weight_edit@2x.png */,
 				5D0C4C8A1D0E5C24002B0727 /* AppDelegate.m */,
 				5D0C4C8C1D0E5C24002B0727 /* ViewController.h */,
 				5D0C4C8D1D0E5C24002B0727 /* ViewController.m */,
@@ -138,6 +163,25 @@
 				5D0C4CAD1D0E5C24002B0727 /* Info.plist */,
 			);
 			path = testJYRulerUITests;
+			sourceTree = "<group>";
+		};
+		5D0C4CB91D0E5C69002B0727 /* ruler */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C4CCD1D0E60D4002B0727 /* UIView+Extension.h */,
+				5D0C4CCE1D0E60D4002B0727 /* UIView+Extension.m */,
+				5D0C4CCA1D0E5FB9002B0727 /* UIColor+JYColor.h */,
+				5D0C4CCB1D0E5FB9002B0727 /* UIColor+JYColor.m */,
+				5D0C4CC31D0E5E75002B0727 /* UIButton+JYCustom.h */,
+				5D0C4CC41D0E5E75002B0727 /* UIButton+JYCustom.m */,
+				5D0C4CBA1D0E5C7A002B0727 /* JYHRrettyRuler.h */,
+				5D0C4CBB1D0E5C7A002B0727 /* JYHRrettyRuler.m */,
+				5D0C4CBC1D0E5C7A002B0727 /* JYRecordingView.h */,
+				5D0C4CBD1D0E5C7A002B0727 /* JYRecordingView.m */,
+				5D0C4CBE1D0E5C7A002B0727 /* JYRulerScrollView.h */,
+				5D0C4CBF1D0E5C7A002B0727 /* JYRulerScrollView.m */,
+			);
+			path = ruler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0C4CC81D0E5F5C002B0727 /* home_weight_edit.png in Resources */,
 				5D0C4C961D0E5C24002B0727 /* LaunchScreen.storyboard in Resources */,
 				5D0C4C931D0E5C24002B0727 /* Assets.xcassets in Resources */,
 				5D0C4C911D0E5C24002B0727 /* Main.storyboard in Resources */,
+				5D0C4CC91D0E5F5C002B0727 /* home_weight_edit@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0C4CCF1D0E60D4002B0727 /* UIView+Extension.m in Sources */,
 				5D0C4C8E1D0E5C24002B0727 /* ViewController.m in Sources */,
 				5D0C4C8B1D0E5C24002B0727 /* AppDelegate.m in Sources */,
+				5D0C4CC01D0E5C7A002B0727 /* JYHRrettyRuler.m in Sources */,
+				5D0C4CC21D0E5C7A002B0727 /* JYRulerScrollView.m in Sources */,
 				5D0C4C881D0E5C24002B0727 /* main.m in Sources */,
+				5D0C4CC51D0E5E75002B0727 /* UIButton+JYCustom.m in Sources */,
+				5D0C4CCC1D0E5FB9002B0727 /* UIColor+JYColor.m in Sources */,
+				5D0C4CC11D0E5C7A002B0727 /* JYRecordingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
